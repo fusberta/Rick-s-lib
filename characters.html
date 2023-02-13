@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css-scss/general.css">
+    <link rel="stylesheet" href="css-scss/character.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__logo">
+            <a href="#" class="header__logo-link">
+                Rick's lib
+            </a>
+        </div>
+        <ul class="header__nav nav">
+            <li class="header__nav-item"><a href="home.html" class="header__nav-link">Главная</a></li>
+            <li class="header__nav-item"><a href="characters.html" class="header__nav-link active">Персонажи</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Локации</a></li>
+            <li class="header__nav-item"><a href="#" class="header__nav-link">Эпизоды</a></li>
+        </ul>
+    </header>
+    
+    <form class="showcase__search-bar">
+        <input type="search" name="search" pattern=".*\S.*" required>
+        <button class="search-btn" type="submit">
+            <span>Search</span>
+        </button>
+    </form>
+
+    <section class="showcase">
+        
+    </section>
+    
+    <script src="js/header.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
